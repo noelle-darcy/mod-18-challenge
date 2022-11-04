@@ -3,8 +3,8 @@ const moment = require('moment');
 
 const reactionSchema = new Schema ({
     reactionId: {
-        type: mongoose.Types.ObjectId(),
-        default: new mongoose.Types.ObjectId()
+        type: Schema.Types.ObjectId(),
+        default: new Schema.Types.ObjectId()
     }, 
     reactionBody: {
         type: string, 
