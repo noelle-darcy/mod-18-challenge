@@ -1,5 +1,10 @@
+const { model } = require('mongoose');
 const { User, Thought } = require('../models'); 
 
-module.exports = {
-    
+const thoughtController = {
+    createThoughts({params, body}, res) {
+        
+    }
 }
+
+model.exports = thoughtController;
